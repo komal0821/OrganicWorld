@@ -1,0 +1,57 @@
+.Gallery {
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+    background-color: rgb(177, 172, 172);
+}
+
+.icons-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 60px;
+}
+
+.gallery-box {
+    width: 310px;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.gallery-box h3 {
+    font-family: cursive;
+    color: #04AA6D;
+    font-weight: bold;
+}
+
+/* .image-box img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+} */
+
+.cont1 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 8px;
+    background-color: white;
+    color: black;
+    text-align: left;
+    box-shadow: 4.0px 8.0px 8.0px hsl(0deg 0% 0% / 0.38);
+
+}
+
+.description p {
+    font: 1em sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+    .icons-grid {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+
+    .Gallery {
+        width: 100%;
+    }
+}

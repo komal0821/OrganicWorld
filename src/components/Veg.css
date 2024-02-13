@@ -1,0 +1,25 @@
+.Banner2 {
+    background-image: url(../assets/banner2.png);
+    padding: 5px;
+    padding: 120px;
+    text-align: center;
+
+}
+
+.Banner2 h1 {
+    font-size: 3.5rem;
+    margin-bottom: 5px;
+    color: wheat;
+    font-family: cursive;
+}
+
+.Banner2 p {
+    font-size: 1.7rem;
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+    .Banner2 {
+        width: 80%;
+    }
+}
